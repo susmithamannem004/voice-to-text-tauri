@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice to Text App</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="app-container">
+    <h1>🎙 Voice to Text</h1>
+    <p class="subtitle">Convert your speech into text instantly</p>
+
+    <div class="controls">
+      <button id="startBtn" class="btn start">Start Recording</button>
+      <button id="stopBtn" class="btn stop" disabled>Stop</button>
+    </div>
+
+    <div class="output-box">
+      <h3>Transcript</h3>
+      <p id="output">Click start and begin speaking...</p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
